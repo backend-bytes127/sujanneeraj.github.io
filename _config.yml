@@ -20,12 +20,15 @@ github_username: "sujanneeraj"
 #########################################################################################
 theme: "minima"
 
+header_pages:
+  - categories.html
+
 rss: rss
 
 kramdown:
   syntax_highlighter_opts:
     disable: true
-    
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
